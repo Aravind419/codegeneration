@@ -1,0 +1,7 @@
+{
+  "name": "Gemini Real-time Coder",
+  "description": "An AI-powered application that writes and modifies website code in real-time based on typed or spoken commands, showing a live preview instantly.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
