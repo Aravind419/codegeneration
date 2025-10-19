@@ -764,7 +764,7 @@ Respond with a JSON object containing a "snippets" key, which is an array of cod
       <header className="flex-shrink-0 flex items-center justify-between p-2 sm:p-4 border-b border-gray-700 shadow-md bg-gray-800">
         <div className="flex-1"></div>
         <h1 className="text-lg sm:text-2xl font-bold tracking-wider">
-          AI Frontend <span className="text-indigo-400">Builder</span>
+          Akvora's Code <span className="text-indigo-400">Builder</span>
         </h1>
         <div className="flex-1 flex justify-end">
           <div className="hidden sm:flex items-center text-xs text-gray-400">
