@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        allowedHosts: ["codegeneration-ym01.onrender.com"],
       },
       plugins: [react()],
       define: {
