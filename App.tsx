@@ -822,9 +822,7 @@ Respond with a JSON object containing a "snippets" key, which is an array of cod
                     className={`flex-1 py-5 px-3 text-center text-sm sm:text-base font-medium transition-all duration-200 min-h-[60px] flex items-center justify-center ${mobileTab === 'editor' ? 'bg-indigo-600 text-white shadow-md border-b-2 border-indigo-400' : 'text-gray-400 hover:text-gray-200 hover:bg-gray-700/50 active:bg-gray-700'}`}
                 >
                     <span className="flex items-center justify-center gap-2">
-                        <svg className="w-5 h-5 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                        </svg>
+                        Editor
                         <span className="hidden xs:inline">Editor</span>
                     </span>
                 </button>
@@ -833,9 +831,7 @@ Respond with a JSON object containing a "snippets" key, which is an array of cod
                     className={`flex-1 py-5 px-3 text-center text-sm sm:text-base font-medium transition-all duration-200 min-h-[60px] flex items-center justify-center ${mobileTab === 'preview' ? 'bg-indigo-600 text-white shadow-md border-b-2 border-indigo-400' : 'text-gray-400 hover:text-gray-200 hover:bg-gray-700/50 active:bg-gray-700'}`}
                 >
                     <span className="flex items-center justify-center gap-2">
-                        <svg className="w-5 h-5 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
-                        </svg>
+                       preview
                         <span className="hidden xs:inline">Preview</span>
                     </span>
                 </button>
